@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 First obtain the appropriate data from CRSP/Compustat. Due to the size of the datasets, we are unable to commit our dataset to Github.
 
-Then run Agentics stock selection.ipynb in Jupyter notebook. For multi-year recommendations, simply change all instances of the year to the year desired. The scoring rule should be stored in systematic_strategy_{x}.txt for year x.
+Then run Agentics stock selection.ipynb in Jupyter notebook. For multi-year recommendations, simply change all instances of the year to the year desired. We've gone ahead and ran it once each year from 2020-2024. You can see the output: the scoring rule should be stored in systematic_strategy_{x}.txt for year x.
 
 strategy implementation.ipynb implements systematic_strategy_{x}.txt to create a list of buys and sells, named buys_{x}.csv and sells_{x}.csv for year x.
 
